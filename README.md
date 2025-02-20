@@ -1,5 +1,5 @@
 # Protobi NHANES Data Repository
-This repository contains survey data and metadata for the [CDC National Health and Nutrition Evaluatin Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.html).
+This repository contains survey data and metadata for the [CDC National Health and Nutrition Evaluation Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.html).
 
 ## Installation
 Use Git to clone this repository.  You may need to download git command line or GitHub Desktop.
@@ -7,9 +7,7 @@ Use Git to clone this repository.  You may need to download git command line or 
 From the command line enter:
 `git clone https://github.com/protobi/protobi-data-nhanes`
 
-
 ## Structure
-
 This currently contains data for all data tables from the NHANES Continuous Survey, beginning with the first year it was fielded, data year 1999-2000.
 
 Suffix | Year
