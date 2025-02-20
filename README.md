@@ -1,14 +1,32 @@
 # Protobi NHANES Data Repository
 This repository contains survey data and metadata for the [CDC National Health and Nutrition Evaluation Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.html).
 
+This builds on the download of XPT and HTM files by https://www.reddit.com/user/Ancient_Winter/ and archived at https://archive.org/details/continuous-nhanes
+It also contains translations of the SAS Transport .xpt data files to text `.csv` and SPSS `.sav` datafiles.
+
+Submit corrections and requests for this repository via the "Issues" and "Pull requests" links above.
+
 ## Installation
-Use Git to clone this repository.  You may need to download git command line or GitHub Desktop.
+Use Git to clone this repository.  You may need to download git command line or GitHub Desktop.  This will download all the files to your local machine
+in a way that makes it easier to receive and contribute updates over time.
+
+You can also download individual files via the links above within this GitHub index page.
 
 From the command line enter:
 `git clone https://github.com/protobi/protobi-data-nhanes`
 
+
 ## Structure
+
 This currently contains data for all data tables from the NHANES Continuous Survey, beginning with the first year it was fielded, data year 1999-2000.
+
+Modules:
+* Demographics
+* Questionnaire
+* Dietary
+* Examination
+* Laboratory
+
 
 Suffix | Year
 --|------------
@@ -64,7 +82,7 @@ The latest release 2021-2023 includes the following tables in these modules:
 |	|	|	|	|SMQ_L
 |	|	|	|	|WHQ_L
 
-## All data tables by release
+## Data tables by release
 ### Unique by seqn
 TABLE | CYCLE
 -- | --
