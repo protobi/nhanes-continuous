@@ -13,7 +13,7 @@ in a way that makes it easier to receive and contribute updates over time.
 You can also download individual files via the links above within this GitHub index page.
 
 From the command line enter:
-`git clone https://github.com/protobi/protobi-data-nhanes`
+`git clone https://github.com/protobi/nhanes-continuous`
 
 
 ## Structure
